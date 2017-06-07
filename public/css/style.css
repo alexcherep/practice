@@ -1,0 +1,27 @@
+.jumbotron {  background-color: white;  padding-top: 100px; }
+header { background-color: black; }
+.list-navbar li{ display: inline-block; }
+body { background: white; }
+.wrapper { width: 100%; min-width: 1000px; }
+header { background: black; }
+.middle { width: 100%; position: relative; padding-top: 100px; padding-bottom: 50px; }
+.middle:after { display: table; clear: both; content: ''; }
+.container { width: 100%; float: left; overflow: hidden; }
+.content { padding: 0 220px 0 220px; }
+.left-sidebar {	float: left; width: 200px; margin-left: -100%; position: relative; }
+.right-sidebar {	float: left; width: 200px; margin-left: -200px; position: relative; background: #FFACAA; }
+footer { height: 100px; }
+.panel-body { word-wrap: break-word; }
+.panel-heading > div { margin-top: -10px; }
+.tops { display: inline-block; width: 450px; border: 1px solid #337ab7; }
+.news { font: normal 18px/22px; }
+.news-letter { top: 25%; left: 0; right: 0; font-size: 14px; margin: auto; width: 85%; min-width: 320px; max-width: 600px; position: absolute; padding: 15px 20px; border: 1px solid #383838; background: #fefefe; z-index: 1000; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; border-radius: 4px; font: 14px/18px 'Tahoma', Arial, sans-serif; -webkit-box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3); -moz-box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3); -ms-box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3); box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3); -webkit-animation: fade .6s; -moz-animation: fade .6s; animation: fade .6s; }
+#overlay { position: fixed; top: 0; left: 0; display: none; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.65); z-index: 999; -webkit-animation: fade .6s; -moz-animation: fade .6s; animation: fade .6s; overflow: auto; }
+.close:before { color: grey; content: "X"; font-family:  Arial, Helvetica, sans-serif; font-size: 16px; font-weight: normal; text-decoration: none; text-shadow: 0 -1px rgba(0, 0, 0, 0.9); -webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s; }
+.close:hover { color: blue; }
+.rating{ width: 20px; height: 20px; padding: 0; margin: 0; border: none; }
+.adv-top, .adv-bottom, #price { height: 40px; }
+.adv-top, .adv-bottom { background: blue; color: white; }
+.adv-top { border-radius: 10px 10px 0 0;}
+.adv-bottom { border-radius: 0 0 10px 10px ;}
+.adv{ margin-left: 10px; font-size: 20px; text-align: center; border: 1px solid blue; border-radius: 10px}
